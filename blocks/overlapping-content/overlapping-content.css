@@ -1,0 +1,125 @@
+.overlapping-content {
+  margin: 5rem 0;
+}
+
+.overlapping-content .overlapping-content-item {
+  margin: auto 1rem;
+}
+
+.overlapping-content .overlapping-content-item h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.overlapping-content.edge-to-edge-on-narrow .overlapping-content-item {
+  margin: auto 0;
+}
+
+.overlapping-content a.button:any-link {
+  min-width: unset;
+}
+
+.overlapping-content a.button.tertiary,
+.overlapping-content a.tertiary {
+  background-color: unset;
+  padding: 0;
+  color: var(--white);
+}
+
+.overlapping-content > div.crop > {
+  display: flex;
+  align-items: stretch;
+}
+
+.overlapping-content > div > .singleton-img-container img {
+  object-fit: contain;
+  width: 100%;
+  height: 10rem;
+}
+
+.overlapping-content > div.crop > .singleton-img-container img {
+  object-fit: cover;
+}
+
+.overlapping-content > div:nth-child(2) > div {
+  margin-top: -3.75rem;
+  z-index: 1;
+  position: relative;
+}
+
+.overlapping-content .overlapping-content-item > div > div > div > :last-child {
+  margin-bottom: 0;
+}
+
+.overlapping-content > div.background .background-wrapper {
+  background: var(--primary);
+  padding: 1.5rem;
+}
+
+.overlapping-content > div.background.left .background-wrapper {
+  margin-right: 1rem;
+}
+
+.overlapping-content > div.background.right .background-wrapper {
+  margin-left: 1rem;
+}
+
+.overlapping-content > div.background .background-wrapper h2,
+.overlapping-content > div.background .background-wrapper p {
+  color: var(--white);
+}
+
+@media (min-width: 62rem) {
+  .overlapping-content .overlapping-content-item {
+    margin: auto 0;
+  }
+
+  .overlapping-content .overlapping-content-item h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .overlapping-content > div {
+    height: 100%;
+  }
+
+  .overlapping-content > div > div {
+    display: flex;
+  }
+
+  .overlapping-content.top-align-on-wide > div {
+    height: 28.75rem;
+  }
+
+  .overlapping-content > div:nth-child(2) > div {
+    margin-top: -14rem;
+  }
+
+  .overlapping-content > div.right > div {
+    justify-content: flex-end;
+  }
+
+  .overlapping-content > div.left > div {
+    justify-content: flex-start;
+  }
+
+  .overlapping-content > div > .singleton-img-container > picture {
+    width: var(--item-width);
+  }
+
+  .overlapping-content > div > .singleton-img-container img {
+    height: 28.75rem;
+  }
+
+  .overlapping-content > div > div:not(.singleton-img-container) > div {
+    width: var(--item-width);
+  }
+
+  .overlapping-content > div.background .background-wrapper {
+    padding: 3rem;
+  }
+
+  .overlapping-content.top-align-on-wide > div:nth-child(2) > div {
+    margin: -28.75rem auto auto;
+  }
+}
