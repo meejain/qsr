@@ -883,23 +883,23 @@ export function wrapImgsInLinks(container) {
  * Note: that this is currently invoked in `delayed.js` and could be moved there.
  * @returns {Promise<void>}
  */
-export async function loadConsentManager() {
-  const ccmConfig = {
-    id: 'usercentrics-cmp',
-    'data-settings-id': '_2XSaYDrpo',
-    async: 'async',
-  };
+// export async function loadConsentManager() {
+//   const ccmConfig = {
+//     id: 'usercentrics-cmp',
+//     'data-settings-id': '_2XSaYDrpo',
+//     async: 'async',
+//   };
 
-  if (getEnvType() !== 'live') {
-    ccmConfig['data-version'] = 'preview';
-  }
+//   if (getEnvType() !== 'live') {
+//     ccmConfig['data-version'] = 'preview';
+//   }
 
-  await Promise.all([
-    loadScript('https://app.usercentrics.eu/browser-ui/latest/loader.js', ccmConfig),
-    loadScript('https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js'),
-  ]);
-  window.dispatchEvent(new CustomEvent('consentmanager'));
-}
+//   await Promise.all([
+//     loadScript('https://app.usercentrics.eu/browser-ui/latest/loader.js', ccmConfig),
+//     loadScript('https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js'),
+//   ]);
+//   window.dispatchEvent(new CustomEvent('consentmanager'));
+// }
 
 /**
  * Crop a given string to a specified maximum length without cutting words in half.
