@@ -392,6 +392,15 @@ main .section.float-image-right picture {
     z-index: 1;
     left: 8vw;
   }
+
+  main .section.image-before-after-t2 > div p img {
+    width: 750px;
+    height: 320px;
+    position: absolute;
+    top: -50vh;
+    z-index: 1;
+    left: 50vw;
+  }
 }
 
 @media (width >= 900px) {
