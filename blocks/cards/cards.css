@@ -1,11 +1,6 @@
 /* stylelint-disable media-feature-range-notation */
 .section.cards-container {
   margin: 4rem 0 5rem;
-  padding: 0 1rem;
-}
-
-main .block.cards {
-  margin: 0 auto 3.75rem;
 }
 
 .cards > ul {
