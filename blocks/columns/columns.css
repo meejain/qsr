@@ -146,6 +146,7 @@
   margin-bottom: 1rem;
   font-size: var(--h1-font-size-mobile);
   font-weight: var(--font-weight-small);
+  color: var(--primary);
 }
 
 .columns.crop-image > div {
@@ -632,6 +633,8 @@ div.img-col > video {
   .columns:not(.no-padding, .history) > div > div:not(.columns-img-col) div:not(.img-col) {
     padding: 1rem 0;
   }
+
+  
 }
 
 @media (min-width: 77rem) {

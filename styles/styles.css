@@ -20,6 +20,10 @@
   --text-color: black;
   --white: white;
   --secondary: #007cad;
+  --primary: #00587c;
+  --h1-font-size-mobile: var(--heading-font-size-m);
+  --font-weight-small: 300;
+  --transparent-grey-color-2: #3c4650b2;
   
 
   /* fonts */
@@ -36,7 +40,7 @@
   --heading-font-size-xxl: 48px;
   --heading-font-size-xl: 40px;
   --heading-font-size-l: 32px;
-  --heading-font-size-m: 24px;
+  --heading-font-size-m: 28px;
   --heading-font-size-s: 20px;
   --heading-font-size-xs: 18px;
 
@@ -344,8 +348,8 @@ main .section.float-image-right picture {
 
   /* section - narrower */
   /* stylelint-disable-next-line no-descending-specificity */
-  main .section.narrower > .section-container,
-  main .section.narrower > .tab-item.active > .section-container {
+  main .section.narrower,
+  main .section.narrower > .tab-item.active {
     position: relative;
     width: 100%;
     padding-right: 0;
