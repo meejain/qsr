@@ -198,7 +198,7 @@ main .section {
 }
 
 .compact {
-  max-width: 30rem;
+  max-width: 40rem;
 }
 
 .no-borders * {

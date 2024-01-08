@@ -101,6 +101,12 @@
     bottom: 0;
     right: 0;
   }
+
+  .block.quote h1 {
+    line-height: 1;
+    font-weight: 550;
+
+  }
   
   @media (min-width: 77rem) {
     .block.quote.column {
