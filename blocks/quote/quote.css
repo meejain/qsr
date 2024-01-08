@@ -2,10 +2,11 @@
 .block.quote {
     border-left: 0.25rem solid var(--black);
     margin-bottom: 6rem;
-    margin-top: 6rem;
+    margin-top: 20vh;
     padding-left: 2rem;
     color: var(--primary);
-    position: relative;
+    position: absolute;
+    left: 60vw;
   }
   
   .block.quote.white {
