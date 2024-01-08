@@ -463,7 +463,8 @@ div.img-col > video {
     flex-direction: unset;
     align-items: center;
     gap: 3rem;
-    margin-bottom: 7.5rem;
+    /* stylelint-disable-next-line comment-empty-line-before */
+    /* margin-bottom: 7.5rem; */
   }
 
   .columns p.button-container {
