@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * A lightweight youtube embed. Still should feel the same to the user, just MUCH faster to initialize and paint.
  *
@@ -10,7 +11,7 @@
  *   https://github.com/Daugilas/lazyYT
  *   https://github.com/vb/lazyframe
  */
-class LiteYTEmbed extends HTMLElement {
+ class LiteYTEmbed extends HTMLElement {
   connectedCallback() {
     this.videoId = this.getAttribute('videoid');
 
