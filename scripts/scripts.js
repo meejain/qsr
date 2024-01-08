@@ -41,8 +41,6 @@ function decorateSectionsWithBackgrounds(element) {
     const bgImageDesktop = section.getAttribute('data-bg-image-desktop');
     const bgImageMobile = section.getAttribute('data-bg-image-mobile');
     const bgImageTablet = section.getAttribute('data-bg-image-tablet');
-    console.log(bgImageDesktop);
-    console.log(bgImage);
     const viewPort = window.deviceType;
     let background;
     switch (viewPort) {
@@ -56,7 +54,6 @@ function decorateSectionsWithBackgrounds(element) {
         background = bgImageDesktop || bgImage || bgImageTablet || bgImageMobile;
         break;
     }
-    console.log(background);
     if (background) {
       if (section.classList.contains('with-static-background-image')) {
         section.classList.add('with-static-background-image');
