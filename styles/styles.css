@@ -397,7 +397,7 @@ main .section.float-image-right picture {
     width: 750px;
     height: 320px;
     position: absolute;
-    top: -50vh;
+    top: -115vh;
     z-index: 1;
     left: 50vw;
   }
