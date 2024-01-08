@@ -61,7 +61,7 @@ main .toc-container .toc.flat ul {
     padding-left: 0;
     width: 100%;
     container-type: inline-size;
-    background-color: var(--transparent-grey-color-2);
+    background-color: var(--transparent-blue);
 }
 
 main .toc-container .toc.flat ul li {
