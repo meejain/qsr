@@ -369,6 +369,29 @@ main .section.float-image-right picture {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  main .section.image-before {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  main .section.image-after {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  main .section > .section-container img {
+      width: 100%;
+  }
+  
+  main .section.image-before-after-t1 > div p img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2vh;
+    z-index: 1;
+    left: 8vw;
+  }
 }
 
 @media (width >= 900px) {

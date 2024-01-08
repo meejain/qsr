@@ -167,7 +167,8 @@
 }
 
 .columns.top-down.columns-2-cols {
-  max-width: 790px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .columns.top-down.columns-3-cols {
@@ -634,7 +635,7 @@ div.img-col > video {
     padding: 1rem 0;
   }
 
-  
+
 }
 
 @media (min-width: 77rem) {
