@@ -10,7 +10,8 @@ footer .footer {
 }
 
 footer .footer p {
-  margin: 0;
+  margin: auto;
+  text-align: center;
 }
 
 .footer img {
