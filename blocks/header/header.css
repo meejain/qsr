@@ -51,10 +51,12 @@ header nav[aria-expanded="true"] {
 header nav p {
   margin: 0;
   line-height: 1;
+  display: flex;
+  gap: 15px;
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: var(--secondary);;
 }
 
 /* hamburger */
@@ -141,14 +143,14 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
+  flex-basis: 500px;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 30px;
   height: auto;
 }
 
