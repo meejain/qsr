@@ -299,6 +299,13 @@ main .section.three-columns-layout.with-static-background-image > picture {
   padding: 0;
 }
 
+.section.with-background-image > div:first-of-type:not(.quote-wrapper) {
+  position: absolute;
+  padding: 8%;
+  width: 60%;
+  color: var(--primary);
+}
+
 /* stylelint-disable-next-line no-descending-specificity */
 .section.with-background-image > picture, .section.with-static-background-image > picture {
   position: relative;
