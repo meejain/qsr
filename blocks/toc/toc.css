@@ -143,6 +143,13 @@ main .section:not([id='']) {
     main .main-content h2 {
         scroll-margin-top: 5rem;
     }
+
+    main .toc-container.section {
+        z-index: 2;
+        display: block;
+        width: 100%;
+        position: fixed;
+    }
 }
 
 @media (min-width: 77rem) {
