@@ -1,12 +1,12 @@
 /* stylelint-disable media-feature-range-notation */
 .block.quote {
     border-left: 0.25rem solid var(--black);
-    margin-bottom: 6rem;
-    margin-top: 20vh;
+    margin-bottom: 5rem;
+    margin-top: 30vh;
     padding-left: 2rem;
     color: var(--primary);
     position: absolute;
-    left: 60vw;
+    left: 55vw;
   }
   
   .block.quote.white {
