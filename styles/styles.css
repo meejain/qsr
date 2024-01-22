@@ -354,6 +354,22 @@ main .section.float-image-right picture {
   width: 100%;
 }
 
+/* Front End Assignments changes */
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main .section1 {
+  height: 1246px;
+  width: 40%
+}
+
+main .section2 {
+  width: 60%;
+}
+
 @media (width >= 600px) {
   main .section {
     padding: 64px 32px;
