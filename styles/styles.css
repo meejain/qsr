@@ -362,8 +362,11 @@ main {
 }
 
 main .section1 {
-  height: 1246px;
-  width: 40%
+  height: 2000px;
+  width: 40%;
+  position: sticky;
+  bottom: 0;
+  align-self: flex-end;
 }
 
 main .section2 {
