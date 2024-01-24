@@ -365,7 +365,8 @@ main .section1 {
   height: 2000px;
   width: 40%;
   position: sticky;
-  top: 0;
+  bottom: 150px;
+  align-self: flex-end;
 }
 
 main .section2 {
