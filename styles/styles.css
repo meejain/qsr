@@ -365,7 +365,7 @@ main .section1 {
   height: 2000px;
   width: 40%;
   position: sticky;
-  bottom: 150px;
+  bottom: 0;
   align-self: flex-end;
 }
 
